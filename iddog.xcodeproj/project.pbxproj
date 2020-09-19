@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DEEE8E0D9784FA5009CAAC8 /* Pods_iddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */; };
+		AF25CD4E2515B09700AB4E89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */; };
+		AF25CD5A2515B15A00AB4E89 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */; };
 		AF9B1D40250FB20900AEC9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D3F250FB20900AEC9AD /* AppDelegate.swift */; };
 		AF9B1D42250FB20900AEC9AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D41250FB20900AEC9AD /* SceneDelegate.swift */; };
-		AF9B1D44250FB20900AEC9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D43250FB20900AEC9AD /* ViewController.swift */; };
-		AF9B1D47250FB20900AEC9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1D45250FB20900AEC9AD /* Main.storyboard */; };
 		AF9B1D49250FB20F00AEC9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1D48250FB20F00AEC9AD /* Assets.xcassets */; };
 		AF9B1D4C250FB20F00AEC9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1D4A250FB20F00AEC9AD /* LaunchScreen.storyboard */; };
 		AF9B1D57250FB20F00AEC9AD /* iddogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D56250FB20F00AEC9AD /* iddogTests.swift */; };
-		AF9B1D62250FB20F00AEC9AD /* iddogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D61250FB20F00AEC9AD /* iddogUITests.swift */; };
+		C93D05D77151BB7ACEA1B6F3 /* Pods_iddogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112F0C49136EF43351FCD094 /* Pods_iddogTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +26,26 @@
 			remoteGlobalIDString = AF9B1D3B250FB20900AEC9AD;
 			remoteInfo = iddog;
 		};
-		AF9B1D5E250FB20F00AEC9AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF9B1D34250FB20900AEC9AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF9B1D3B250FB20900AEC9AD;
-			remoteInfo = iddog;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112F0C49136EF43351FCD094 /* Pods_iddogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iddogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C1595611F3CE68FCA04795 /* Pods-iddog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddog.debug.xcconfig"; path = "Target Support Files/Pods-iddog/Pods-iddog.debug.xcconfig"; sourceTree = "<group>"; };
+		614FB4D746842CA02A8C1F10 /* Pods-iddogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddogTests.release.xcconfig"; path = "Target Support Files/Pods-iddogTests/Pods-iddogTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		AF9B1D3C250FB20900AEC9AD /* iddog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iddog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9B1D3F250FB20900AEC9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF9B1D41250FB20900AEC9AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF9B1D43250FB20900AEC9AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF9B1D46250FB20900AEC9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF9B1D48250FB20F00AEC9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF9B1D4B250FB20F00AEC9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF9B1D4D250FB20F00AEC9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9B1D52250FB20F00AEC9AD /* iddogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iddogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9B1D56250FB20F00AEC9AD /* iddogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iddogTests.swift; sourceTree = "<group>"; };
 		AF9B1D58250FB20F00AEC9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF9B1D5D250FB20F00AEC9AD /* iddogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iddogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF9B1D61250FB20F00AEC9AD /* iddogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iddogUITests.swift; sourceTree = "<group>"; };
-		AF9B1D63250FB20F00AEC9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72C6AB6C79D24401F122687 /* Pods-iddog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddog.release.xcconfig"; path = "Target Support Files/Pods-iddog/Pods-iddog.release.xcconfig"; sourceTree = "<group>"; };
+		C3449EC44C01D2D122C78E37 /* Pods-iddogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddogTests.debug.xcconfig"; path = "Target Support Files/Pods-iddogTests/Pods-iddogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iddog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEEE8E0D9784FA5009CAAC8 /* Pods_iddog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +61,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF9B1D5A250FB20F00AEC9AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C93D05D77151BB7ACEA1B6F3 /* Pods_iddogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A897F3507A5014FF0E1B44D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */,
+				112F0C49136EF43351FCD094 /* Pods_iddogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF25CD4A2515828E00AB4E89 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				AF9B1D4A250FB20F00AEC9AD /* LaunchScreen.storyboard */,
+				AF9B1D48250FB20F00AEC9AD /* Assets.xcassets */,
+				AF9B1D4D250FB20F00AEC9AD /* Info.plist */,
+				AF9B1D3F250FB20900AEC9AD /* AppDelegate.swift */,
+				AF9B1D41250FB20900AEC9AD /* SceneDelegate.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		AF25CD4B2515B05700AB4E89 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AF25CD4C2515B08500AB4E89 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AF25CD4C2515B08500AB4E89 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AF25CD4F2515B15A00AB4E89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AF9B1D33250FB20900AEC9AD = {
 			isa = PBXGroup;
 			children = (
 				AF9B1D3E250FB20900AEC9AD /* iddog */,
 				AF9B1D55250FB20F00AEC9AD /* iddogTests */,
-				AF9B1D60250FB20F00AEC9AD /* iddogUITests */,
 				AF9B1D3D250FB20900AEC9AD /* Products */,
+				F65BDDB13ECBAFB3E9E0DB43 /* Pods */,
+				6A897F3507A5014FF0E1B44D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +129,6 @@
 			children = (
 				AF9B1D3C250FB20900AEC9AD /* iddog.app */,
 				AF9B1D52250FB20F00AEC9AD /* iddogTests.xctest */,
-				AF9B1D5D250FB20F00AEC9AD /* iddogUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +136,9 @@
 		AF9B1D3E250FB20900AEC9AD /* iddog */ = {
 			isa = PBXGroup;
 			children = (
-				AF9B1D3F250FB20900AEC9AD /* AppDelegate.swift */,
-				AF9B1D41250FB20900AEC9AD /* SceneDelegate.swift */,
-				AF9B1D43250FB20900AEC9AD /* ViewController.swift */,
-				AF9B1D45250FB20900AEC9AD /* Main.storyboard */,
-				AF9B1D48250FB20F00AEC9AD /* Assets.xcassets */,
-				AF9B1D4A250FB20F00AEC9AD /* LaunchScreen.storyboard */,
-				AF9B1D4D250FB20F00AEC9AD /* Info.plist */,
+				AF25CD4F2515B15A00AB4E89 /* Extensions */,
+				AF25CD4B2515B05700AB4E89 /* Scenes */,
+				AF25CD4A2515828E00AB4E89 /* Infrastructure */,
 			);
 			path = iddog;
 			sourceTree = "<group>";
@@ -119,13 +152,15 @@
 			path = iddogTests;
 			sourceTree = "<group>";
 		};
-		AF9B1D60250FB20F00AEC9AD /* iddogUITests */ = {
+		F65BDDB13ECBAFB3E9E0DB43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF9B1D61250FB20F00AEC9AD /* iddogUITests.swift */,
-				AF9B1D63250FB20F00AEC9AD /* Info.plist */,
+				60C1595611F3CE68FCA04795 /* Pods-iddog.debug.xcconfig */,
+				B72C6AB6C79D24401F122687 /* Pods-iddog.release.xcconfig */,
+				C3449EC44C01D2D122C78E37 /* Pods-iddogTests.debug.xcconfig */,
+				614FB4D746842CA02A8C1F10 /* Pods-iddogTests.release.xcconfig */,
 			);
-			path = iddogUITests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF9B1D66250FB20F00AEC9AD /* Build configuration list for PBXNativeTarget "iddog" */;
 			buildPhases = (
+				1F813788642EAF9FE839AFAC /* [CP] Check Pods Manifest.lock */,
 				AF9B1D38250FB20900AEC9AD /* Sources */,
 				AF9B1D39250FB20900AEC9AD /* Frameworks */,
 				AF9B1D3A250FB20900AEC9AD /* Resources */,
+				6BF8AC62D94B2AE890587CC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF9B1D69250FB20F00AEC9AD /* Build configuration list for PBXNativeTarget "iddogTests" */;
 			buildPhases = (
+				1B2E88CB5C0BBF44B24DDF9E /* [CP] Check Pods Manifest.lock */,
 				AF9B1D4E250FB20F00AEC9AD /* Sources */,
 				AF9B1D4F250FB20F00AEC9AD /* Frameworks */,
 				AF9B1D50250FB20F00AEC9AD /* Resources */,
+				DACFA2D548141C0671A6FB47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,24 +204,6 @@
 			productName = iddogTests;
 			productReference = AF9B1D52250FB20F00AEC9AD /* iddogTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AF9B1D5C250FB20F00AEC9AD /* iddogUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF9B1D6C250FB20F00AEC9AD /* Build configuration list for PBXNativeTarget "iddogUITests" */;
-			buildPhases = (
-				AF9B1D59250FB20F00AEC9AD /* Sources */,
-				AF9B1D5A250FB20F00AEC9AD /* Frameworks */,
-				AF9B1D5B250FB20F00AEC9AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF9B1D5F250FB20F00AEC9AD /* PBXTargetDependency */,
-			);
-			name = iddogUITests;
-			productName = iddogUITests;
-			productReference = AF9B1D5D250FB20F00AEC9AD /* iddogUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +218,6 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					AF9B1D51250FB20F00AEC9AD = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = AF9B1D3B250FB20900AEC9AD;
-					};
-					AF9B1D5C250FB20F00AEC9AD = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = AF9B1D3B250FB20900AEC9AD;
 					};
@@ -221,7 +238,6 @@
 			targets = (
 				AF9B1D3B250FB20900AEC9AD /* iddog */,
 				AF9B1D51250FB20F00AEC9AD /* iddogTests */,
-				AF9B1D5C250FB20F00AEC9AD /* iddogUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +249,6 @@
 			files = (
 				AF9B1D4C250FB20F00AEC9AD /* LaunchScreen.storyboard in Resources */,
 				AF9B1D49250FB20F00AEC9AD /* Assets.xcassets in Resources */,
-				AF9B1D47250FB20900AEC9AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,21 +259,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF9B1D5B250FB20F00AEC9AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B2E88CB5C0BBF44B24DDF9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iddogTests-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		1F813788642EAF9FE839AFAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iddog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF8AC62D94B2AE890587CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iddog/Pods-iddog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iddog/Pods-iddog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iddog/Pods-iddog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACFA2D548141C0671A6FB47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iddogTests/Pods-iddogTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iddogTests/Pods-iddogTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iddogTests/Pods-iddogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF9B1D38250FB20900AEC9AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9B1D44250FB20900AEC9AD /* ViewController.swift in Sources */,
+				AF25CD5A2515B15A00AB4E89 /* UIView+Constraints.swift in Sources */,
+				AF25CD4E2515B09700AB4E89 /* LoginViewController.swift in Sources */,
 				AF9B1D40250FB20900AEC9AD /* AppDelegate.swift in Sources */,
 				AF9B1D42250FB20900AEC9AD /* SceneDelegate.swift in Sources */,
 			);
@@ -272,14 +362,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF9B1D59250FB20F00AEC9AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF9B1D62250FB20F00AEC9AD /* iddogUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,22 +370,9 @@
 			target = AF9B1D3B250FB20900AEC9AD /* iddog */;
 			targetProxy = AF9B1D53250FB20F00AEC9AD /* PBXContainerItemProxy */;
 		};
-		AF9B1D5F250FB20F00AEC9AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF9B1D3B250FB20900AEC9AD /* iddog */;
-			targetProxy = AF9B1D5E250FB20F00AEC9AD /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF9B1D45250FB20900AEC9AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF9B1D46250FB20900AEC9AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF9B1D4A250FB20F00AEC9AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,12 +502,14 @@
 		};
 		AF9B1D67250FB20F00AEC9AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C1595611F3CE68FCA04795 /* Pods-iddog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2DBK7C7WV;
-				INFOPLIST_FILE = iddog/Info.plist;
+				INFOPLIST_FILE = iddog/Infrastructure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +517,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = arthur.iddog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AF9B1D68250FB20F00AEC9AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72C6AB6C79D24401F122687 /* Pods-iddog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2DBK7C7WV;
-				INFOPLIST_FILE = iddog/Info.plist;
+				INFOPLIST_FILE = iddog/Infrastructure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,19 +538,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = arthur.iddog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		AF9B1D6A250FB20F00AEC9AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3449EC44C01D2D122C78E37 /* Pods-iddogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2DBK7C7WV;
 				INFOPLIST_FILE = iddogTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,13 +567,14 @@
 		};
 		AF9B1D6B250FB20F00AEC9AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614FB4D746842CA02A8C1F10 /* Pods-iddogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2DBK7C7WV;
 				INFOPLIST_FILE = iddogTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,46 +585,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iddog.app/iddog";
-			};
-			name = Release;
-		};
-		AF9B1D6D250FB20F00AEC9AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M2DBK7C7WV;
-				INFOPLIST_FILE = iddogUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = arthur.iddogUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iddog;
-			};
-			name = Debug;
-		};
-		AF9B1D6E250FB20F00AEC9AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M2DBK7C7WV;
-				INFOPLIST_FILE = iddogUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = arthur.iddogUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iddog;
 			};
 			name = Release;
 		};
@@ -579,15 +614,6 @@
 			buildConfigurations = (
 				AF9B1D6A250FB20F00AEC9AD /* Debug */,
 				AF9B1D6B250FB20F00AEC9AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF9B1D6C250FB20F00AEC9AD /* Build configuration list for PBXNativeTarget "iddogUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF9B1D6D250FB20F00AEC9AD /* Debug */,
-				AF9B1D6E250FB20F00AEC9AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
