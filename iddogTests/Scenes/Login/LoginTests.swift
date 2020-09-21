@@ -70,4 +70,13 @@ final class LoginTests: KIFTestCase {
             .result()
             .hasHomeView()
     }
+
+    func testLogonFail() throws {
+        try robot.require()
+            .loadWithError()
+            .typeEmail(email: "Teste@teste.com")
+            .tapLoginButton()
+            .result()
+            .hasErrorAlert()
+    }
 }

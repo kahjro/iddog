@@ -57,7 +57,7 @@ final class LoginResult: TestsResult {
     }
 
     @discardableResult
-    func hasErrorAlert() throws -> Self {
+    func hasErrorAlert() -> Self {
         presence(identifier: "AlertView")
 
         return self

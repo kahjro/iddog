@@ -61,6 +61,11 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
         setupArch()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
     // MARK: Lazy variables
     lazy var worker: LoginWorkerProtocol = LoginWorker()
     lazy var interactor: LoginBusinessLogic & APIResponse = {
@@ -110,7 +115,8 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
 
     //MARK: LoginDisplayDelegate protocol conforms
     func presentHome() {
-        navigationController?.pushViewController(HomeViewController(), animated: true)
+        let controller = HomeViewController()
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 
     func showLoading() {
