@@ -33,6 +33,8 @@
 		AF9B1D49250FB20F00AEC9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1D48250FB20F00AEC9AD /* Assets.xcassets */; };
 		AF9B1D4C250FB20F00AEC9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1D4A250FB20F00AEC9AD /* LaunchScreen.storyboard */; };
 		AF9B1D57250FB20F00AEC9AD /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D56250FB20F00AEC9AD /* LoginTests.swift */; };
+		AFAFB676251AB89E00F5493E /* DogGalleryMock.json in Resources */ = {isa = PBXBuildFile; fileRef = AFAFB675251AB89E00F5493E /* DogGalleryMock.json */; };
+		AFAFB678251AB8C000F5493E /* DogGalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */; };
 		C93D05D77151BB7ACEA1B6F3 /* Pods_iddogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112F0C49136EF43351FCD094 /* Pods_iddogTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,8 @@
 		AF9B1D52250FB20F00AEC9AD /* iddogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iddogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9B1D56250FB20F00AEC9AD /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		AF9B1D58250FB20F00AEC9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAFB675251AB89E00F5493E /* DogGalleryMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DogGalleryMock.json; sourceTree = "<group>"; };
+		AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGalleryModel.swift; sourceTree = "<group>"; };
 		B72C6AB6C79D24401F122687 /* Pods-iddog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddog.release.xcconfig"; path = "Target Support Files/Pods-iddog/Pods-iddog.release.xcconfig"; sourceTree = "<group>"; };
 		C3449EC44C01D2D122C78E37 /* Pods-iddogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddogTests.debug.xcconfig"; path = "Target Support Files/Pods-iddogTests/Pods-iddogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iddog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				AF07550D25183D7F004568AE /* LoginMock.json */,
+				AFAFB675251AB89E00F5493E /* DogGalleryMock.json */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		AF25CD4B2515B05700AB4E89 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				AFAFB674251AB85100F5493E /* Gallery */,
 				AF52E0D6251610E10085E23B /* Home */,
 				AF25CD4C2515B08500AB4E89 /* Login */,
 			);
@@ -179,6 +185,7 @@
 			children = (
 				AF07550F25184361004568AE /* Mocks */,
 				AF52E0D0251603D20085E23B /* LoginModel.swift */,
+				AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -266,6 +273,13 @@
 				AF9B1D58250FB20F00AEC9AD /* Info.plist */,
 			);
 			path = iddogTests;
+			sourceTree = "<group>";
+		};
+		AFAFB674251AB85100F5493E /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 		F65BDDB13ECBAFB3E9E0DB43 /* Pods */ = {
@@ -366,6 +380,7 @@
 				AF9B1D4C250FB20F00AEC9AD /* LaunchScreen.storyboard in Resources */,
 				AF075510251844DB004568AE /* LoginMock.json in Resources */,
 				AF9B1D49250FB20F00AEC9AD /* Assets.xcassets in Resources */,
+				AFAFB676251AB89E00F5493E /* DogGalleryMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +488,7 @@
 				AF52E0C9251600D50085E23B /* LoginWorker.swift in Sources */,
 				AF52E0D1251603D20085E23B /* LoginModel.swift in Sources */,
 				AF52E0D525160CA60085E23B /* UIViewController+Extensions.swift in Sources */,
+				AFAFB678251AB8C000F5493E /* DogGalleryModel.swift in Sources */,
 				AF25CD4E2515B09700AB4E89 /* LoginViewController.swift in Sources */,
 				AF9B1D40250FB20900AEC9AD /* AppDelegate.swift in Sources */,
 				AF52E0C5251600BA0085E23B /* LoginInteractor.swift in Sources */,
