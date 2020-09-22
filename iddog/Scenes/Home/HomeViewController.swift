@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import KeychainSwift
 
 class HomeViewController: UIViewController {
     private lazy var backgroundView: UIView = {
@@ -31,7 +32,7 @@ class HomeViewController: UIViewController {
         navBar.barTintColor = .mainPurple
         let navigationItem = UINavigationItem()
             navigationItem.title = "Menu"
-        let rightButton = UIBarButtonItem(title: "Sair", style: .plain, target: self, action: nil)
+        let rightButton = UIBarButtonItem(title: "Sair", style: .plain, target: self, action: #selector(logout))
             rightButton.tintColor = .white
 
         navigationItem.rightBarButtonItem = rightButton
@@ -39,6 +40,8 @@ class HomeViewController: UIViewController {
 
         return navBar
     }()
+
+    private let dogRaces = ["Husky","Hound","Pug","Labrador"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +51,12 @@ class HomeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    @objc private func logout() {
+        let keychain = KeychainSwift()
+        keychain.clear()
+        navigationController?.setViewControllers([LoginViewController()], animated: true) 
     }
 
     private func setupLayout() {
@@ -82,7 +91,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.backgroundColor = .offPurple
-        cell.textLabel?.text = "teste"
+        cell.textLabel?.text = dogRaces[indexPath.row]
         return cell
     }
 

@@ -16,6 +16,7 @@ protocol LoginDisplayDelegate: class {
 
 class LoginViewController: UIViewController, LoginDisplayDelegate {
 
+    //MARK: View elements
     private var loginView: UIView = {
         var view = UIView()
         view.backgroundColor = .mainPurple
@@ -55,6 +56,7 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
         return label
     }()
 
+    //MARK: Lifecycle functions
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
@@ -73,6 +75,7 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
     }()
     lazy var presenter: LoginPresentationLogic = LoginPresenter(delegate: self)
 
+    //MARK: Private functions
     private func setupLayout() {
         view.addSubview(loginView, constraints: [
             loginView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
