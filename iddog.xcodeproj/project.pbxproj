@@ -10,6 +10,7 @@
 		4DEEE8E0D9784FA5009CAAC8 /* Pods_iddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */; };
 		AF07550E25183D7F004568AE /* LoginMock.json in Resources */ = {isa = PBXBuildFile; fileRef = AF07550D25183D7F004568AE /* LoginMock.json */; };
 		AF075510251844DB004568AE /* LoginMock.json in Resources */ = {isa = PBXBuildFile; fileRef = AF07550D25183D7F004568AE /* LoginMock.json */; };
+		AF07551225185788004568AE /* LoginFailMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07551125185788004568AE /* LoginFailMock.swift */; };
 		AF25CD4E2515B09700AB4E89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */; };
 		AF25CD5A2515B15A00AB4E89 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */; };
 		AF52E0C5251600BA0085E23B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C4251600BA0085E23B /* LoginInteractor.swift */; };
@@ -35,6 +36,8 @@
 		AF9B1D57250FB20F00AEC9AD /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D56250FB20F00AEC9AD /* LoginTests.swift */; };
 		AFAFB676251AB89E00F5493E /* DogGalleryMock.json in Resources */ = {isa = PBXBuildFile; fileRef = AFAFB675251AB89E00F5493E /* DogGalleryMock.json */; };
 		AFAFB678251AB8C000F5493E /* DogGalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */; };
+		AFAFB671251A7DD500F5493E /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB670251A7DD500F5493E /* HomeInteractor.swift */; };
+		AFAFB673251A7DE000F5493E /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB672251A7DE000F5493E /* HomePresenter.swift */; };
 		C93D05D77151BB7ACEA1B6F3 /* Pods_iddogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112F0C49136EF43351FCD094 /* Pods_iddogTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,7 @@
 		60C1595611F3CE68FCA04795 /* Pods-iddog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddog.debug.xcconfig"; path = "Target Support Files/Pods-iddog/Pods-iddog.debug.xcconfig"; sourceTree = "<group>"; };
 		614FB4D746842CA02A8C1F10 /* Pods-iddogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddogTests.release.xcconfig"; path = "Target Support Files/Pods-iddogTests/Pods-iddogTests.release.xcconfig"; sourceTree = "<group>"; };
 		AF07550D25183D7F004568AE /* LoginMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LoginMock.json; sourceTree = "<group>"; };
+		AF07551125185788004568AE /* LoginFailMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFailMock.swift; sourceTree = "<group>"; };
 		AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		AF52E0C4251600BA0085E23B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 		AF9B1D58250FB20F00AEC9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFAFB675251AB89E00F5493E /* DogGalleryMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DogGalleryMock.json; sourceTree = "<group>"; };
 		AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGalleryModel.swift; sourceTree = "<group>"; };
+		AFAFB670251A7DD500F5493E /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		AFAFB672251A7DE000F5493E /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		B72C6AB6C79D24401F122687 /* Pods-iddog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddog.release.xcconfig"; path = "Target Support Files/Pods-iddog/Pods-iddog.release.xcconfig"; sourceTree = "<group>"; };
 		C3449EC44C01D2D122C78E37 /* Pods-iddogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddogTests.debug.xcconfig"; path = "Target Support Files/Pods-iddogTests/Pods-iddogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iddog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				AF52E0D7251610EF0085E23B /* HomeViewController.swift */,
+				AFAFB670251A7DD500F5493E /* HomeInteractor.swift */,
+				AFAFB672251A7DE000F5493E /* HomePresenter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				AF52E0E225161A960085E23B /* LoginSuccessMock.swift */,
+				AF07551125185788004568AE /* LoginFailMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -483,6 +492,7 @@
 				AF52E0CD2516028C0085E23B /* ClientParams.swift in Sources */,
 				AF52E0E7251817C30085E23B /* String+Extensions.swift in Sources */,
 				AF52E0C7251600C90085E23B /* LoginPresenter.swift in Sources */,
+				AFAFB671251A7DD500F5493E /* HomeInteractor.swift in Sources */,
 				AF52E0CE2516028C0085E23B /* NetworkingClient.swift in Sources */,
 				AF25CD5A2515B15A00AB4E89 /* UIView+Constraints.swift in Sources */,
 				AF52E0C9251600D50085E23B /* LoginWorker.swift in Sources */,
@@ -495,6 +505,7 @@
 				AF52E0E9251826BD0085E23B /* UIColor+Extensions.swift in Sources */,
 				AF9B1D42250FB20900AEC9AD /* SceneDelegate.swift in Sources */,
 				AF52E0D8251610EF0085E23B /* HomeViewController.swift in Sources */,
+				AFAFB673251A7DE000F5493E /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +518,7 @@
 				AF52E0DA2516129C0085E23B /* LoginRobot.swift in Sources */,
 				AF52E0E0251614200085E23B /* KIF+Extensions.swift in Sources */,
 				AF52E0DE251613330085E23B /* TestsResult.swift in Sources */,
+				AF07551225185788004568AE /* LoginFailMock.swift in Sources */,
 				AF9B1D57250FB20F00AEC9AD /* LoginTests.swift in Sources */,
 				AF52E0E325161A960085E23B /* LoginSuccessMock.swift in Sources */,
 			);

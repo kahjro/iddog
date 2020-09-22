@@ -20,13 +20,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: UIScreen.main.bounds)
         let keychain = KeychainSwift()
+
+        let navigationController = UINavigationController()
         var viewController = UIViewController()
+
         if let key = keychain.get("token"), key != "" {
             viewController = HomeViewController()
         } else {
             viewController = LoginViewController()
         }
-        window?.rootViewController = viewController
+        navigationController.viewControllers = [viewController]
+
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
     }
