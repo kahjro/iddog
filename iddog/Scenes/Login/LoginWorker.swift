@@ -16,14 +16,16 @@ protocol LoginWorkerProtocol: class {
 
 class LoginWorker: NSObject, LoginWorkerProtocol {
     var delegate: APIResponse?
-    var params: [String: Any] = ["Content-Type":"application/json"]
+    var params: [String: Any] = ["":""]
+    var headers = Alamofire.SessionManager.defaultHTTPHeaders
     var baseURL: String = ""
 
     func login(email: String) {
         baseURL = "https://iddog-nrizncxqba-uc.a.run.app/signup"
+        headers["Content-Type"] = "application/json"
         params.updateValue(email, forKey: "email")
-        Alamofire.request(baseURL, method: .post, parameters: params).validate(statusCode: 200..<299).responseData { response in
 
+        Alamofire.request(baseURL, method: .post, parameters: params, headers: headers).validate(statusCode: 200..<299).responseData { response in
             switch response.result {
             case .success(_):
                 guard let data = response.data else { return }
