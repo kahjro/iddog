@@ -16,6 +16,7 @@ protocol LoginDisplayDelegate: class {
 
 class LoginViewController: UIViewController, LoginDisplayDelegate {
 
+    //MARK: View elements
     private var loginView: UIView = {
         var view = UIView()
         view.backgroundColor = .mainPurple
@@ -55,10 +56,16 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
         return label
     }()
 
+    //MARK: Lifecycle functions
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
         setupArch()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
     }
 
     // MARK: Lazy variables
@@ -68,6 +75,7 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
     }()
     lazy var presenter: LoginPresentationLogic = LoginPresenter(delegate: self)
 
+    //MARK: Private functions
     private func setupLayout() {
         view.addSubview(loginView, constraints: [
             loginView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -110,7 +118,8 @@ class LoginViewController: UIViewController, LoginDisplayDelegate {
 
     //MARK: LoginDisplayDelegate protocol conforms
     func presentHome() {
-        navigationController?.pushViewController(HomeViewController(), animated: true)
+        let controller = HomeViewController()
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 
     func showLoading() {

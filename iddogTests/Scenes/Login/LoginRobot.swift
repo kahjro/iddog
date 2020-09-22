@@ -35,6 +35,12 @@ final class LoginRobot {
         return loadScreenWithProvider(LoginSuccessMock())
     }
 
+    func loadWithError() -> Self {
+        let keychain = KeychainSwift()
+        keychain.clear()
+        return loadScreenWithProvider(LoginFailMock())
+    }
+
     func typeEmail(email: String) -> Self {
         spec?.tester().tapView(withAccessibilityIdentifier: "LoginTxtField")
         spec?.tester().validateEnteredText(true)?.enterText(intoCurrentFirstResponder: email)
