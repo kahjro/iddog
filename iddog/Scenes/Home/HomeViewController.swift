@@ -6,7 +6,11 @@
 //
 
 import UIKit
-import KeychainSwift
+
+protocol HomeDisplayDelegate: class {
+    func presentDogsController(breed: String)
+    func logoutSession()
+}
 
 class HomeViewController: UIViewController {
     private lazy var backgroundView: UIView = {
@@ -43,6 +47,10 @@ class HomeViewController: UIViewController {
 
     private let dogRaces = ["Husky","Hound","Pug","Labrador"]
 
+
+    lazy var interactor: HomeBusinessLogic = HomeInteractor(presenter: presenter)
+    lazy var presenter: HomePresentationLogic = HomePresenter(delegate: self)
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
@@ -54,13 +62,10 @@ class HomeViewController: UIViewController {
     }
 
     @objc private func logout() {
-        let keychain = KeychainSwift()
-        keychain.clear()
-        navigationController?.setViewControllers([LoginViewController()], animated: true) 
+        interactor.logoutSession()
     }
 
     private func setupLayout() {
-        self.title = "Home"
         view.addSubview(backgroundView, constraints: [
             backgroundView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
@@ -97,5 +102,17 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+        guard let cell = tableView.cellForRow(at: indexPath), let cellLabel = cell.textLabel?.text else { return }
+        interactor.presentDogsController(breed: cellLabel)
+    }
+}
+
+extension HomeViewController: HomeDisplayDelegate {
+    func presentDogsController(breed: String) {
+        navigationController?.pushViewController(UIViewController(), animated: true)
+    }
+
+    func logoutSession() {
+        navigationController?.setViewControllers([LoginViewController()], animated: true)
     }
 }
