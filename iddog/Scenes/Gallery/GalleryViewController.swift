@@ -49,7 +49,7 @@ class GalleryViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.isScrollEnabled = true
-        collectionView.accessibilityIdentifier = "HomeTableView"
+        collectionView.accessibilityIdentifier = "GalleryCollectionView"
         return collectionView
     }()
 
