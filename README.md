@@ -14,7 +14,7 @@ Desafio iOS da idwall<br>
 3. Abra o arquivo `iddog.xcworkspace`
 
 # Bibliotecas 
-[**Nuke**](https://github.com/kean/Nuke): Usado para fazer o download e cache das imagens
+[**SDWebImage**](https://github.com/SDWebImage/SDWebImage): Usado para fazer o download e cache das imagens
 
 [**KIF**](https://github.com/kif-framework/KIF): Usado nos testes para realizar interações na interface, assim podendo cobrir mais cenários de teste
 
