@@ -34,6 +34,11 @@ final class HomeRobot {
         return self
     }
 
+    func tapLogout() -> Self {
+        spec?.tester().tapView(withAccessibilityLabel: "Sair")
+        return self
+    }
+
     func result() throws -> HomeResult {
         return try HomeResult(spec: spec, sut: sut)
     }

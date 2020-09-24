@@ -21,6 +21,8 @@
 		AF339923251D2E1A001C4EE8 /* GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF339922251D2E1A001C4EE8 /* GalleryTests.swift */; };
 		AF339925251D2E24001C4EE8 /* GalleryRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF339924251D2E24001C4EE8 /* GalleryRobot.swift */; };
 		AF339927251D2E30001C4EE8 /* GalleryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF339926251D2E30001C4EE8 /* GalleryResult.swift */; };
+		AF339929251D2FC4001C4EE8 /* GallerySuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF339928251D2FC4001C4EE8 /* GallerySuccessMock.swift */; };
+		AF33992B251D2FD1001C4EE8 /* GalleryFailMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33992A251D2FD1001C4EE8 /* GalleryFailMock.swift */; };
 		AF52E0C5251600BA0085E23B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C4251600BA0085E23B /* LoginInteractor.swift */; };
 		AF52E0C7251600C90085E23B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C6251600C90085E23B /* LoginPresenter.swift */; };
 		AF52E0C9251600D50085E23B /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C8251600D50085E23B /* LoginWorker.swift */; };
@@ -79,6 +81,8 @@
 		AF339922251D2E1A001C4EE8 /* GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTests.swift; sourceTree = "<group>"; };
 		AF339924251D2E24001C4EE8 /* GalleryRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryRobot.swift; sourceTree = "<group>"; };
 		AF339926251D2E30001C4EE8 /* GalleryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryResult.swift; sourceTree = "<group>"; };
+		AF339928251D2FC4001C4EE8 /* GallerySuccessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallerySuccessMock.swift; sourceTree = "<group>"; };
+		AF33992A251D2FD1001C4EE8 /* GalleryFailMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryFailMock.swift; sourceTree = "<group>"; };
 		AF52E0C4251600BA0085E23B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		AF52E0C6251600C90085E23B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		AF52E0C8251600D50085E23B /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
@@ -238,6 +242,24 @@
 			path = Gallery;
 			sourceTree = "<group>";
 		};
+		AF33992C251D3079001C4EE8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF52E0E225161A960085E23B /* LoginSuccessMock.swift */,
+				AF07551125185788004568AE /* LoginFailMock.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AF33992D251D3080001C4EE8 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				AF339928251D2FC4001C4EE8 /* GallerySuccessMock.swift */,
+				AF33992A251D2FD1001C4EE8 /* GalleryFailMock.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
 		AF52E0CA2516028C0085E23B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,8 +314,8 @@
 		AF52E0E125161A820085E23B /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				AF52E0E225161A960085E23B /* LoginSuccessMock.swift */,
-				AF07551125185788004568AE /* LoginFailMock.swift */,
+				AF33992D251D3080001C4EE8 /* Gallery */,
+				AF33992C251D3079001C4EE8 /* Login */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -595,7 +617,9 @@
 				AF33991E251D2A08001C4EE8 /* HomeRobot.swift in Sources */,
 				AF33991C251D2932001C4EE8 /* HomeTests.swift in Sources */,
 				AF52E0E525164A1E0085E23B /* XCTestCase+RequireError.swift in Sources */,
+				AF339929251D2FC4001C4EE8 /* GallerySuccessMock.swift in Sources */,
 				AF52E0DA2516129C0085E23B /* LoginRobot.swift in Sources */,
+				AF33992B251D2FD1001C4EE8 /* GalleryFailMock.swift in Sources */,
 				AF52E0E0251614200085E23B /* KIF+Extensions.swift in Sources */,
 				AF52E0DE251613330085E23B /* TestsResult.swift in Sources */,
 				AF07551225185788004568AE /* LoginFailMock.swift in Sources */,
