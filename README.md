@@ -33,3 +33,6 @@ Para esse projeto, a arquitetura escolhida foi a `Clean` pois facilita a separa�
 # Melhorias
 * [ ] Criar um ambiente de mock para realizar a execução do app offline
 * [ ] Suportar darkmode
+
+# Contatos
+[**Linkedin**](https://www.linkedin.com/in/arthurkazuo/)
