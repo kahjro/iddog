@@ -8,7 +8,7 @@ target 'iddog' do
   # Pods for iddog
   pod 'Alamofire'
   pod 'KeychainSwift', '~> 19.0'
-  pod 'Nuke'
+  pod 'SDWebImage', '~> 5.0'
 
   # Pods for iddogTests
   target 'iddogTests' do

@@ -109,7 +109,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension HomeViewController: HomeDisplayDelegate {
     func presentDogsController(breed: String) {
-        navigationController?.pushViewController(UIViewController(), animated: true)
+        navigationController?.pushViewController(GalleryViewController(breed: breed), animated: true)
     }
 
     func logoutSession() {

@@ -13,6 +13,8 @@
 		AF07551225185788004568AE /* LoginFailMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07551125185788004568AE /* LoginFailMock.swift */; };
 		AF25CD4E2515B09700AB4E89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */; };
 		AF25CD5A2515B15A00AB4E89 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */; };
+		AF339916251C416F001C4EE8 /* DogImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF339915251C416F001C4EE8 /* DogImageCell.swift */; };
+		AF339919251C4ED5001C4EE8 /* DogImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF339918251C4ED5001C4EE8 /* DogImageViewController.swift */; };
 		AF52E0C5251600BA0085E23B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C4251600BA0085E23B /* LoginInteractor.swift */; };
 		AF52E0C7251600C90085E23B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C6251600C90085E23B /* LoginPresenter.swift */; };
 		AF52E0C9251600D50085E23B /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E0C8251600D50085E23B /* LoginWorker.swift */; };
@@ -36,6 +38,12 @@
 		AF9B1D57250FB20F00AEC9AD /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1D56250FB20F00AEC9AD /* LoginTests.swift */; };
 		AFAFB671251A7DD500F5493E /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB670251A7DD500F5493E /* HomeInteractor.swift */; };
 		AFAFB673251A7DE000F5493E /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB672251A7DE000F5493E /* HomePresenter.swift */; };
+		AFAFB676251AB89E00F5493E /* DogGalleryMock.json in Resources */ = {isa = PBXBuildFile; fileRef = AFAFB675251AB89E00F5493E /* DogGalleryMock.json */; };
+		AFAFB678251AB8C000F5493E /* DogGalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */; };
+		AFAFB67A251AB96200F5493E /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB679251AB96200F5493E /* GalleryViewController.swift */; };
+		AFAFB67C251AB97300F5493E /* GalleryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB67B251AB97300F5493E /* GalleryInteractor.swift */; };
+		AFAFB67E251AB98100F5493E /* GalleryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB67D251AB98100F5493E /* GalleryWorker.swift */; };
+		AFAFB680251AB98C00F5493E /* GalleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB67F251AB98C00F5493E /* GalleryPresenter.swift */; };
 		C93D05D77151BB7ACEA1B6F3 /* Pods_iddogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112F0C49136EF43351FCD094 /* Pods_iddogTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +65,8 @@
 		AF07551125185788004568AE /* LoginFailMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFailMock.swift; sourceTree = "<group>"; };
 		AF25CD4D2515B09700AB4E89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF25CD542515B15A00AB4E89 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		AF339915251C416F001C4EE8 /* DogImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageCell.swift; sourceTree = "<group>"; };
+		AF339918251C4ED5001C4EE8 /* DogImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageViewController.swift; sourceTree = "<group>"; };
 		AF52E0C4251600BA0085E23B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		AF52E0C6251600C90085E23B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		AF52E0C8251600D50085E23B /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
@@ -84,6 +94,12 @@
 		AF9B1D58250FB20F00AEC9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFAFB670251A7DD500F5493E /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		AFAFB672251A7DE000F5493E /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		AFAFB675251AB89E00F5493E /* DogGalleryMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DogGalleryMock.json; sourceTree = "<group>"; };
+		AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGalleryModel.swift; sourceTree = "<group>"; };
+		AFAFB679251AB96200F5493E /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		AFAFB67B251AB97300F5493E /* GalleryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractor.swift; sourceTree = "<group>"; };
+		AFAFB67D251AB98100F5493E /* GalleryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryWorker.swift; sourceTree = "<group>"; };
+		AFAFB67F251AB98C00F5493E /* GalleryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPresenter.swift; sourceTree = "<group>"; };
 		B72C6AB6C79D24401F122687 /* Pods-iddog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddog.release.xcconfig"; path = "Target Support Files/Pods-iddog/Pods-iddog.release.xcconfig"; sourceTree = "<group>"; };
 		C3449EC44C01D2D122C78E37 /* Pods-iddogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iddogTests.debug.xcconfig"; path = "Target Support Files/Pods-iddogTests/Pods-iddogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE43E348D30C613DA33C1C36 /* Pods_iddog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iddog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				AF07550D25183D7F004568AE /* LoginMock.json */,
+				AFAFB675251AB89E00F5493E /* DogGalleryMock.json */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -143,8 +160,10 @@
 		AF25CD4B2515B05700AB4E89 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				AF25CD4C2515B08500AB4E89 /* Login */,
+				AF339917251C4EB0001C4EE8 /* ExpandedImage */,
+				AFAFB674251AB85100F5493E /* Gallery */,
 				AF52E0D6251610E10085E23B /* Home */,
+				AF25CD4C2515B08500AB4E89 /* Login */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -171,6 +190,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AF339914251C415F001C4EE8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF339915251C416F001C4EE8 /* DogImageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AF339917251C4EB0001C4EE8 /* ExpandedImage */ = {
+			isa = PBXGroup;
+			children = (
+				AF339918251C4ED5001C4EE8 /* DogImageViewController.swift */,
+			);
+			path = ExpandedImage;
+			sourceTree = "<group>";
+		};
 		AF52E0CA2516028C0085E23B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +220,7 @@
 			children = (
 				AF07550F25184361004568AE /* Mocks */,
 				AF52E0D0251603D20085E23B /* LoginModel.swift */,
+				AFAFB677251AB8C000F5493E /* DogGalleryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,6 +313,18 @@
 			path = iddogTests;
 			sourceTree = "<group>";
 		};
+		AFAFB674251AB85100F5493E /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				AF339914251C415F001C4EE8 /* Cells */,
+				AFAFB679251AB96200F5493E /* GalleryViewController.swift */,
+				AFAFB67B251AB97300F5493E /* GalleryInteractor.swift */,
+				AFAFB67D251AB98100F5493E /* GalleryWorker.swift */,
+				AFAFB67F251AB98C00F5493E /* GalleryPresenter.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
 		F65BDDB13ECBAFB3E9E0DB43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +354,8 @@
 			dependencies = (
 			);
 			name = iddog;
+			packageProductDependencies = (
+			);
 			productName = iddog;
 			productReference = AF9B1D3C250FB20900AEC9AD /* iddog.app */;
 			productType = "com.apple.product-type.application";
@@ -357,6 +407,8 @@
 				Base,
 			);
 			mainGroup = AF9B1D33250FB20900AEC9AD;
+			packageReferences = (
+			);
 			productRefGroup = AF9B1D3D250FB20900AEC9AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -375,6 +427,7 @@
 				AF9B1D4C250FB20F00AEC9AD /* LaunchScreen.storyboard in Resources */,
 				AF075510251844DB004568AE /* LoginMock.json in Resources */,
 				AF9B1D49250FB20F00AEC9AD /* Assets.xcassets in Resources */,
+				AFAFB676251AB89E00F5493E /* DogGalleryMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,22 +527,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF339919251C4ED5001C4EE8 /* DogImageViewController.swift in Sources */,
+				AFAFB67E251AB98100F5493E /* GalleryWorker.swift in Sources */,
 				AF52E0CD2516028C0085E23B /* ClientParams.swift in Sources */,
+				AFAFB67C251AB97300F5493E /* GalleryInteractor.swift in Sources */,
 				AF52E0E7251817C30085E23B /* String+Extensions.swift in Sources */,
 				AF52E0C7251600C90085E23B /* LoginPresenter.swift in Sources */,
 				AFAFB671251A7DD500F5493E /* HomeInteractor.swift in Sources */,
 				AF52E0CE2516028C0085E23B /* NetworkingClient.swift in Sources */,
 				AF25CD5A2515B15A00AB4E89 /* UIView+Constraints.swift in Sources */,
+				AFAFB67A251AB96200F5493E /* GalleryViewController.swift in Sources */,
 				AF52E0C9251600D50085E23B /* LoginWorker.swift in Sources */,
 				AF52E0D1251603D20085E23B /* LoginModel.swift in Sources */,
 				AF52E0D525160CA60085E23B /* UIViewController+Extensions.swift in Sources */,
+				AFAFB678251AB8C000F5493E /* DogGalleryModel.swift in Sources */,
 				AF25CD4E2515B09700AB4E89 /* LoginViewController.swift in Sources */,
+				AF339916251C416F001C4EE8 /* DogImageCell.swift in Sources */,
 				AF9B1D40250FB20900AEC9AD /* AppDelegate.swift in Sources */,
 				AF52E0C5251600BA0085E23B /* LoginInteractor.swift in Sources */,
 				AF52E0E9251826BD0085E23B /* UIColor+Extensions.swift in Sources */,
 				AF9B1D42250FB20900AEC9AD /* SceneDelegate.swift in Sources */,
 				AF52E0D8251610EF0085E23B /* HomeViewController.swift in Sources */,
 				AFAFB673251A7DE000F5493E /* HomePresenter.swift in Sources */,
+				AFAFB680251AB98C00F5493E /* GalleryPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -636,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
