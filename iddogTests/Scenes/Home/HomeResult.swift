@@ -25,6 +25,10 @@ final class HomeResult: TestsResult {
         presence(identifier: "HomeTableView")
     }
 
+    func hasLoginView() {
+        presence(identifier: "LoginView")
+    }
+
     func hasGalleryView() {
         presence(identifier: "GalleryView")
     }

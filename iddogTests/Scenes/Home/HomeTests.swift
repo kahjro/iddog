@@ -42,4 +42,12 @@ final class HomeTests: KIFTestCase {
             .result()
             .hasGalleryView()
     }
+
+    func testLogout() throws {
+        try robot.require()
+            .loadScreen()
+            .tapLogout()
+            .result()
+            .hasLoginView()
+    }
 }
